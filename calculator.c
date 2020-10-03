@@ -1,10 +1,10 @@
-//hey moni
+//calculator program
 
 #include <stdio.h>
 int main() {
     char operator;
-    double first, second;
-    printf("Enter an operator (+, -, *,): ");
+    float first, second;
+    printf("Please enter a Operator(+, -, *,): ");
     scanf("%c", &operator);
     printf("Enter two operands: ");
     scanf("%lf %lf", &first, &second);
@@ -26,6 +26,6 @@ int main() {
     default:
         printf("Error! operator is not correct");
     }
-
+//calculator 
     return 0;
 }
